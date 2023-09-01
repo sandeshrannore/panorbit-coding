@@ -1,0 +1,45 @@
+.profileMain{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content{
+    margin: 40px;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-d{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .profile-d:hover{
+    cursor: pointer;
+  }
+
+.profile-d > img {
+    border-radius: 50px;
+    width: 35px;
+    margin: 0px;
+    margin-right: 20px;
+    padding: 0px;
+  }
+
+  
+  .profile-d > p {
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(56, 53, 53);
+  }  

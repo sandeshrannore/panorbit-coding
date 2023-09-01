@@ -1,0 +1,36 @@
+.postsPage {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+  }
+  
+  .topDiv {
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+    padding: 30px;
+  }
+  
+  .profile_section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .profile_section > h2 {
+    color: rgb(67, 65, 65);
+  }
+  
+  .screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+  }
+  
+  .ComingSoon {
+    font-size: 6rem;
+    color: #ded8d8;
+  }
+  
